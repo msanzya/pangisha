@@ -1,0 +1,36 @@
+/* Dashboard Styles */
+.dashboard {
+    min-height: 100vh;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar .nav-link {
+    color: #fff;
+    padding: 0.75rem 1rem;
+}
+
+.sidebar .nav-link.active {
+    background-color: rgba(255, 255, 255, .1);
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+main {
+    padding-top: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(33, 40, 50, 0.15);
+}
